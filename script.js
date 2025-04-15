@@ -4,7 +4,7 @@ async function generateCode() {
   output.textContent = "Generating code...";
 
   try {
-    const response = await fetch("https://eozrd4e2b84c419.m.pipedream.net", {
+    const response = await fetch("https://eoo6kgr27643tgh.m.pipedream.net", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ prompt: idea })
